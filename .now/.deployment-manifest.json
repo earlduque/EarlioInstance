@@ -323,13 +323,6 @@
       "modulePath": ""
     },
     {
-      "status": "DEPLOYED",
-      "current_hash": "6b90995fb8cd7aa785aaa8299d6d44a0",
-      "path": "update\\sys_module_src_todo_js.xml",
-      "deploy_hash": "6b90995fb8cd7aa785aaa8299d6d44a0",
-      "modulePath": "x_snc_sndp_twitch/sndp-twitch/1.0.0/src/todo.js"
-    },
-    {
       "path": "update\\sys_dictionary_x_snc_sndp_twitch_presence_real.xml",
       "current_hash": "a711bc8f6c3f4fc81a9a3d3b6bb521d4",
       "deploy_hash": "a711bc8f6c3f4fc81a9a3d3b6bb521d4",
@@ -342,9 +335,16 @@
       "deploy_hash": "8cf104429001c1a97e752f5fbc512a32",
       "status": "DEPLOYED",
       "modulePath": ""
+    },
+    {
+      "status": "DEPLOYED",
+      "current_hash": "f653ed7078356f3065a01a09372c6baf",
+      "path": "author_elective_update\\sys_module_src_todo_js.xml",
+      "deploy_hash": "f653ed7078356f3065a01a09372c6baf",
+      "modulePath": "x_snc_sndp_twitch/sndp-twitch/1.0.0/src/todo.js"
     }
   ],
-  "last_fetch": "2024-04-02T16:36:02.447Z",
+  "last_fetch": "2024-04-03T18:19:30.882Z",
   "packageJsonHash": "c320fb6b7a5204e2f890ea46ef1f6e71",
   "register_scope": false
 }

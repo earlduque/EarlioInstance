@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="real" label="Real" language="en" table="x_snc_sndp_twitch_presence">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>real</element>
+            <help/>
+            <hint/>
+            <label>Real</label>
+            <language>en</language>
+            <name>x_snc_sndp_twitch_presence</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>earl.duque</sys_created_by>
+            <sys_created_on>2024-03-29 18:32:13</sys_created_on>
+            <sys_id>0f07e474c3d54610c9bcbe2bb00131bd</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Real</sys_name>
+            <sys_package display_value="sndp-twitch" source="x_snc_sndp_twitch">a6e509aec341c650c9bcbe2bb001319c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="sndp-twitch">a6e509aec341c650c9bcbe2bb001319c</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_sndp_twitch_presence_real_en</sys_update_name>
+            <sys_updated_by>earl.duque</sys_updated_by>
+            <sys_updated_on>2024-03-29 18:32:14</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

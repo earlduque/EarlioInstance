@@ -1,0 +1,34 @@
+import { GlideRecord } from '../imports/GlideRecord';
+export declare class GlideSystemUtilDB {
+    static _dropTable(tableName?: string): void;
+    static alterSqlFieldDefintion(table?: string, element?: string, oldLength?: any): void;
+    static dropColumn(tableName?: string, fieldName?: string): void;
+    static dropColumnQuick(tableName?: string, fieldName?: string): void;
+    static dropTable(tableName?: string): void;
+    static dropTableRecord(dbObject?: GlideRecord): void;
+    static ensureCompositeIndex(tableName?: string, sfields?: string, indexName?: string): void;
+    static ensureIndex(tableName?: string, elementName?: string): boolean;
+    static fieldExists(tableName?: string, fieldName?: string): boolean;
+    static flushStatus(): void;
+    static getDictionaryEntryPackage(tableName?: string, fieldName?: string): string;
+    static getDictionaryEntryScope(tableName?: string, fieldName?: string): string;
+    static getDisplayValueFor(table?: string, key?: string, field?: string): string;
+    static getInScopeDBViews(): Array<string>;
+    static getInScopeTables(): Array<string>;
+    static healthCheck(filePattern?: string, reportonly?: boolean): boolean;
+    static isScopedAdminApp(): boolean;
+    static isScopedApp(): boolean;
+    static isTableInScope(tableName?: string): boolean;
+    static rebuildAllIndexes(): void;
+    static rebuildIndexes(tableName?: string): void;
+    static renameTable(tableName?: string, newTableName?: string, cacheFlush?: boolean): void;
+    static reset(): boolean;
+    static resetDB(dbName?: string): void;
+    static sql(statement?: string): void;
+    static sqlItemsByField(table?: string, sfields?: any, fwfield?: string, value?: string, limit?: number): Array<any>;
+    static sqlItemsByID(table?: string, sfields?: any, sys_id?: string, limit?: number): Array<any>;
+    static tableCreate(name?: string, label?: any): string;
+    static tableDrop(name?: string): void;
+    static trace(onOff?: boolean): void;
+    static truncateTable(name?: string): void;
+}

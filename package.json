@@ -1,0 +1,22 @@
+{
+    "name": "sndp-twitch",
+    "version": "1.0.0",
+    "description": "",
+    "license": "UNLICENSED",
+    "contributors": [],
+    "scripts": {
+        "build": "now-sdk build",
+        "deploy": "now-sdk deploy"
+    },
+    "now": {
+        "scope": "x_snc_sndp_twitch",
+        "scopeId": "a6e509aec341c650c9bcbe2bb001319c",
+        "moduleDir": "src"
+    },
+    "devDependencies": {
+        "@servicenow/eslint-plugin-sdk-app-plugin": "*",
+        "@servicenow/glide": "^25.0.3",
+        "eslint": "8.50.0",
+        "typescript": "^5.4.3"
+    }
+}

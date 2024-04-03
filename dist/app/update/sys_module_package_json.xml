@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<record_update>
+  <sys_module action="INSERT_OR_UPDATE">
+    <sys_scope>a6e509aec341c650c9bcbe2bb001319c</sys_scope>
+    <path>x_snc_sndp_twitch/sndp-twitch/1.0.0/package.json</path>
+    <external_source>false</external_source>
+    <content><![CDATA[{
+    "name": "sndp-twitch",
+    "version": "1.0.0",
+    "description": "",
+    "license": "UNLICENSED",
+    "contributors": [],
+    "scripts": {
+        "build": "now-sdk build",
+        "deploy": "now-sdk deploy"
+    },
+    "now": {
+        "scope": "x_snc_sndp_twitch",
+        "scopeId": "a6e509aec341c650c9bcbe2bb001319c",
+        "moduleDir": "src"
+    },
+    "devDependencies": {
+        "@servicenow/eslint-plugin-sdk-app-plugin": "*",
+        "@servicenow/glide": "^25.0.3",
+        "eslint": "8.50.0",
+        "typescript": "^5.4.3"
+    }
+}
+]]></content>
+  </sys_module>
+</record_update>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="fab90da2c381c650c9bcbe2bb0013191" label="Presence" max_length="40" name="x_snc_sndp_twitch_presence" type="collection">
+        <element default="10" label="Points" max_length="40" name="points" type="integer"/>
+        <element label="Real" max_length="255" name="real" type="boolean"/>
+        <element default="10" label="Score" max_length="10" name="score" type="integer"/>
+        <element label="User ID" max_length="40" name="user_id" type="string"/>
+        <element label="User Login" max_length="40" name="user_login" type="string"/>
+        <element display="true" label="User Name" max_length="40" name="user_name" type="string"/>
+    </element>
+</database>

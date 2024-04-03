@@ -1,0 +1,350 @@
+{
+  "files": [
+    {
+      "path": "dictionary\\x_snc_sndp_twitch_presence.xml",
+      "current_hash": "0b0d5cf95d9d8b6f6bc37a08954c44d7",
+      "deploy_hash": "0b0d5cf95d9d8b6f6bc37a08954c44d7",
+      "status": "DEPLOYED",
+      "modulePath": ""
+    },
+    {
+      "path": "package_inventory.csv",
+      "current_hash": "ac00ad656c6cb9c5b311fd3e92f6963c",
+      "deploy_hash": "ac00ad656c6cb9c5b311fd3e92f6963c",
+      "status": "DEPLOYED",
+      "modulePath": ""
+    },
+    {
+      "path": "sys_app_a6e509aec341c650c9bcbe2bb001319c.xml",
+      "current_hash": "b706a013cb1a75cac9322ac2b8ad26db",
+      "deploy_hash": "b706a013cb1a75cac9322ac2b8ad26db",
+      "status": "DEPLOYED",
+      "modulePath": ""
+    },
+    {
+      "path": "update\\sys_app_application_4b2ac1e2c381c650c9bcbe2bb001317e.xml",
+      "current_hash": "1b5d8eed6ddd5b36c8b8a99a890f9771",
+      "deploy_hash": "1b5d8eed6ddd5b36c8b8a99a890f9771",
+      "status": "DEPLOYED",
+      "modulePath": ""
+    },
+    {
+      "path": "update\\sys_app_module_8b2ac1e2c381c650c9bcbe2bb0013182.xml",
+      "current_hash": "fd9ec316d1345cd735e96fe531065406",
+      "deploy_hash": "fd9ec316d1345cd735e96fe531065406",
+      "status": "DEPLOYED",
+      "modulePath": ""
+    },
+    {
+      "path": "update\\sys_db_object_fab90da2c381c650c9bcbe2bb0013191.xml",
+      "current_hash": "fd1db3c71cef54c77447308237ad9c97",
+      "deploy_hash": "fd1db3c71cef54c77447308237ad9c97",
+      "status": "DEPLOYED",
+      "modulePath": ""
+    },
+    {
+      "path": "update\\sys_dictionary_x_snc_sndp_twitch_presence_null.xml",
+      "current_hash": "89542b74ca151a83c707a50eef5d2f63",
+      "deploy_hash": "89542b74ca151a83c707a50eef5d2f63",
+      "status": "DEPLOYED",
+      "modulePath": ""
+    },
+    {
+      "path": "update\\sys_dictionary_x_snc_sndp_twitch_presence_user_id.xml",
+      "current_hash": "24508369372b9ce893aa0bd19ee6142a",
+      "deploy_hash": "24508369372b9ce893aa0bd19ee6142a",
+      "status": "DEPLOYED",
+      "modulePath": ""
+    },
+    {
+      "path": "update\\sys_dictionary_x_snc_sndp_twitch_presence_user_login.xml",
+      "current_hash": "ae981b940dd56eb262ea85d143c43bfb",
+      "deploy_hash": "ae981b940dd56eb262ea85d143c43bfb",
+      "status": "DEPLOYED",
+      "modulePath": ""
+    },
+    {
+      "path": "update\\sys_dictionary_x_snc_sndp_twitch_presence_user_name.xml",
+      "current_hash": "635727a43958484a8b5b3bde540802ce",
+      "deploy_hash": "635727a43958484a8b5b3bde540802ce",
+      "status": "DEPLOYED",
+      "modulePath": ""
+    },
+    {
+      "path": "update\\sys_documentation_x_snc_sndp_twitch_presence_user_id_en.xml",
+      "current_hash": "c215bffd0d18bf391d26b691ce7c83b1",
+      "deploy_hash": "c215bffd0d18bf391d26b691ce7c83b1",
+      "status": "DEPLOYED",
+      "modulePath": ""
+    },
+    {
+      "path": "update\\sys_documentation_x_snc_sndp_twitch_presence_user_login_en.xml",
+      "current_hash": "a0476d547ea51f4b4a153ba5734bfe1f",
+      "deploy_hash": "a0476d547ea51f4b4a153ba5734bfe1f",
+      "status": "DEPLOYED",
+      "modulePath": ""
+    },
+    {
+      "path": "update\\sys_documentation_x_snc_sndp_twitch_presence_user_name_en.xml",
+      "current_hash": "aff586a36659d2c6a54f630e303b7034",
+      "deploy_hash": "aff586a36659d2c6a54f630e303b7034",
+      "status": "DEPLOYED",
+      "modulePath": ""
+    },
+    {
+      "path": "update\\sys_documentation_x_snc_sndp_twitch_presence__en.xml",
+      "current_hash": "54966326653f30ec444743806baca9ab",
+      "deploy_hash": "54966326653f30ec444743806baca9ab",
+      "status": "DEPLOYED",
+      "modulePath": ""
+    },
+    {
+      "path": "update\\sys_embedded_help_role_c32a89a2c381c650c9bcbe2bb00131ea.xml",
+      "current_hash": "61378b8a759ffc9d7f1b154606f596dc",
+      "deploy_hash": "61378b8a759ffc9d7f1b154606f596dc",
+      "status": "DEPLOYED",
+      "modulePath": ""
+    },
+    {
+      "path": "update\\sys_scope_privilege_181c8c279381c290b653ffbd1dba10f2.xml",
+      "current_hash": "9318570208e5cfbb21f08c43d6fbc82f",
+      "deploy_hash": "9318570208e5cfbb21f08c43d6fbc82f",
+      "status": "DEPLOYED",
+      "modulePath": ""
+    },
+    {
+      "path": "update\\sys_scope_privilege_22b2c423c30d8a50c9bcbe2bb001317d.xml",
+      "current_hash": "978350690dfe739971139fd5dba0bdeb",
+      "deploy_hash": "978350690dfe739971139fd5dba0bdeb",
+      "status": "DEPLOYED",
+      "modulePath": ""
+    },
+    {
+      "path": "update\\sys_scope_privilege_501c8c279381c290b653ffbd1dba10ef.xml",
+      "current_hash": "07ed00e88eb4127c2d984ce35367c499",
+      "deploy_hash": "07ed00e88eb4127c2d984ce35367c499",
+      "status": "DEPLOYED",
+      "modulePath": ""
+    },
+    {
+      "path": "update\\sys_scope_privilege_69184162c381c650c9bcbe2bb001315c.xml",
+      "current_hash": "fd586a93b17ec7b1b68b4ea68e12e2ef",
+      "deploy_hash": "fd586a93b17ec7b1b68b4ea68e12e2ef",
+      "status": "DEPLOYED",
+      "modulePath": ""
+    },
+    {
+      "path": "update\\sys_scope_privilege_a918c9eec341c650c9bcbe2bb00131e0.xml",
+      "current_hash": "54f8bc6e8426517e9156cfb2d410aa4c",
+      "deploy_hash": "54f8bc6e8426517e9156cfb2d410aa4c",
+      "status": "DEPLOYED",
+      "modulePath": ""
+    },
+    {
+      "path": "update\\sys_scope_privilege_bd87c122c381c650c9bcbe2bb0013111.xml",
+      "current_hash": "12f08e718248eff20f3aa928d848946b",
+      "deploy_hash": "12f08e718248eff20f3aa928d848946b",
+      "status": "DEPLOYED",
+      "modulePath": ""
+    },
+    {
+      "path": "update\\sys_scope_privilege_e39df79bc3c98a50c9bcbe2bb00131db.xml",
+      "current_hash": "6bf99aa8b63c856c8a3d61892ee605eb",
+      "deploy_hash": "6bf99aa8b63c856c8a3d61892ee605eb",
+      "status": "DEPLOYED",
+      "modulePath": ""
+    },
+    {
+      "path": "update\\sys_scope_privilege_f5870922c381c650c9bcbe2bb0013154.xml",
+      "current_hash": "30b0c96b814c78786377b708005d9f6f",
+      "deploy_hash": "30b0c96b814c78786377b708005d9f6f",
+      "status": "DEPLOYED",
+      "modulePath": ""
+    },
+    {
+      "path": "update\\sys_scope_privilege_f9870922c381c650c9bcbe2bb0013156.xml",
+      "current_hash": "9072185a4ddfbafe82e7e087c95092cc",
+      "deploy_hash": "9072185a4ddfbafe82e7e087c95092cc",
+      "status": "DEPLOYED",
+      "modulePath": ""
+    },
+    {
+      "path": "update\\sys_security_acl_872ac1e2c381c650c9bcbe2bb0013193.xml",
+      "current_hash": "ab964c52fc080a70df52f1524ea60327",
+      "deploy_hash": "ab964c52fc080a70df52f1524ea60327",
+      "status": "DEPLOYED",
+      "modulePath": ""
+    },
+    {
+      "path": "update\\sys_security_acl_c32ac1e2c381c650c9bcbe2bb00131a2.xml",
+      "current_hash": "4f0698159130715e2cd127660f60ae42",
+      "deploy_hash": "4f0698159130715e2cd127660f60ae42",
+      "status": "DEPLOYED",
+      "modulePath": ""
+    },
+    {
+      "path": "update\\sys_security_acl_c72ac1e2c381c650c9bcbe2bb00131a8.xml",
+      "current_hash": "e2192a904314308e6c8fe2dfca4117b8",
+      "deploy_hash": "e2192a904314308e6c8fe2dfca4117b8",
+      "status": "DEPLOYED",
+      "modulePath": ""
+    },
+    {
+      "path": "update\\sys_security_acl_cf2ac1e2c381c650c9bcbe2bb001319b.xml",
+      "current_hash": "71b9592d2d6f72cc776658ecfdd8181e",
+      "deploy_hash": "71b9592d2d6f72cc776658ecfdd8181e",
+      "status": "DEPLOYED",
+      "modulePath": ""
+    },
+    {
+      "path": "update\\sys_security_acl_role_872ac1e2c381c650c9bcbe2bb0013197.xml",
+      "current_hash": "5c6ecb828a341e96ca95e104a5d78808",
+      "deploy_hash": "5c6ecb828a341e96ca95e104a5d78808",
+      "status": "DEPLOYED",
+      "modulePath": ""
+    },
+    {
+      "path": "update\\sys_security_acl_role_c32ac1e2c381c650c9bcbe2bb00131a5.xml",
+      "current_hash": "3c7e18d08538e8036288cdfddef5974b",
+      "deploy_hash": "3c7e18d08538e8036288cdfddef5974b",
+      "status": "DEPLOYED",
+      "modulePath": ""
+    },
+    {
+      "path": "update\\sys_security_acl_role_c72ac1e2c381c650c9bcbe2bb00131ab.xml",
+      "current_hash": "17f2dde34a2c22fb60702ed07a119520",
+      "deploy_hash": "17f2dde34a2c22fb60702ed07a119520",
+      "status": "DEPLOYED",
+      "modulePath": ""
+    },
+    {
+      "path": "update\\sys_security_acl_role_cf2ac1e2c381c650c9bcbe2bb001319e.xml",
+      "current_hash": "e07786ff5253e325e48a0a75a0fe6f2f",
+      "deploy_hash": "e07786ff5253e325e48a0a75a0fe6f2f",
+      "status": "DEPLOYED",
+      "modulePath": ""
+    },
+    {
+      "path": "update\\sys_ui_list_x_snc_sndp_twitch_presence_null.xml",
+      "current_hash": "985b82ebb987970fd411ab9be8ffa8d3",
+      "deploy_hash": "985b82ebb987970fd411ab9be8ffa8d3",
+      "status": "DEPLOYED",
+      "modulePath": ""
+    },
+    {
+      "path": "update\\sys_user_role_c32a89a2c381c650c9bcbe2bb00131e8.xml",
+      "current_hash": "b968f02f7b433cb671748b82541955c2",
+      "deploy_hash": "b968f02f7b433cb671748b82541955c2",
+      "status": "DEPLOYED",
+      "modulePath": ""
+    },
+    {
+      "path": "update\\sys_ws_definition_791601eec341c650c9bcbe2bb001316e.xml",
+      "current_hash": "66b250255c35368b6d6d92419893038c",
+      "deploy_hash": "66b250255c35368b6d6d92419893038c",
+      "status": "DEPLOYED",
+      "modulePath": ""
+    },
+    {
+      "path": "update\\sys_ws_operation_115645eec341c650c9bcbe2bb0013181.xml",
+      "current_hash": "657cc31b9a51cec796d1171d39a369f8",
+      "deploy_hash": "657cc31b9a51cec796d1171d39a369f8",
+      "status": "DEPLOYED",
+      "modulePath": ""
+    },
+    {
+      "path": "update\\ua_table_licensing_config_9f2ac1e2c381c650c9bcbe2bb00131c9.xml",
+      "current_hash": "8e5f5a5eacc570b8a6eb2496580b5b63",
+      "deploy_hash": "8e5f5a5eacc570b8a6eb2496580b5b63",
+      "status": "DEPLOYED",
+      "modulePath": ""
+    },
+    {
+      "status": "DEPLOYED",
+      "current_hash": "7e9614a003aa903be8eba93f18226368",
+      "path": "update\\sys_module_package_json.xml",
+      "deploy_hash": "7e9614a003aa903be8eba93f18226368",
+      "modulePath": "x_snc_sndp_twitch/sndp-twitch/1.0.0/package.json"
+    },
+    {
+      "status": "DEPLOYED",
+      "current_hash": "9752dc370fdfe324c3af791f4b2abcb8",
+      "path": "update\\sys_module_src_mysrapi_js.xml",
+      "deploy_hash": "9752dc370fdfe324c3af791f4b2abcb8",
+      "modulePath": "x_snc_sndp_twitch/sndp-twitch/1.0.0/src/mysrapi.js"
+    },
+    {
+      "path": "update\\sys_dictionary_x_snc_sndp_twitch_presence_points.xml",
+      "current_hash": "d849b5c5649ff2c307f9383ce0e6ed97",
+      "deploy_hash": "d849b5c5649ff2c307f9383ce0e6ed97",
+      "status": "DEPLOYED",
+      "modulePath": ""
+    },
+    {
+      "path": "update\\sys_documentation_x_snc_sndp_twitch_presence_points_en.xml",
+      "current_hash": "0ee0cd9d0b19b87d4e06c4ec8dfb87a6",
+      "deploy_hash": "0ee0cd9d0b19b87d4e06c4ec8dfb87a6",
+      "status": "DEPLOYED",
+      "modulePath": ""
+    },
+    {
+      "path": "update\\sys_ui_section_bf969f3bc30d4210c9bcbe2bb0013107.xml",
+      "current_hash": "0a8ca5082a5fc809ba991c7fee574d61",
+      "deploy_hash": "0a8ca5082a5fc809ba991c7fee574d61",
+      "status": "DEPLOYED",
+      "modulePath": ""
+    },
+    {
+      "path": "update\\sys_dictionary_x_snc_sndp_twitch_presence_score.xml",
+      "current_hash": "b943391df3693af858925d6aaad4f9ab",
+      "deploy_hash": "b943391df3693af858925d6aaad4f9ab",
+      "status": "DEPLOYED",
+      "modulePath": ""
+    },
+    {
+      "path": "update\\sys_documentation_x_snc_sndp_twitch_presence_score_en.xml",
+      "current_hash": "c9d88115ecc7f59536149483bafd0c05",
+      "deploy_hash": "c9d88115ecc7f59536149483bafd0c05",
+      "status": "DEPLOYED",
+      "modulePath": ""
+    },
+    {
+      "path": "update\\sys_scope_privilege_10a99b3fc30d4210c9bcbe2bb00131e1.xml",
+      "current_hash": "b08d4c979e0522164a88dcfe8e2ad6f7",
+      "deploy_hash": "b08d4c979e0522164a88dcfe8e2ad6f7",
+      "status": "DEPLOYED",
+      "modulePath": ""
+    },
+    {
+      "path": "update\\sys_ws_operation_1cefc20cc3598210c9bcbe2bb0013104.xml",
+      "current_hash": "87fc169b07cb640f0e6a61b3637ced60",
+      "deploy_hash": "87fc169b07cb640f0e6a61b3637ced60",
+      "status": "DEPLOYED",
+      "modulePath": ""
+    },
+    {
+      "status": "DEPLOYED",
+      "current_hash": "6b90995fb8cd7aa785aaa8299d6d44a0",
+      "path": "update\\sys_module_src_todo_js.xml",
+      "deploy_hash": "6b90995fb8cd7aa785aaa8299d6d44a0",
+      "modulePath": "x_snc_sndp_twitch/sndp-twitch/1.0.0/src/todo.js"
+    },
+    {
+      "path": "update\\sys_dictionary_x_snc_sndp_twitch_presence_real.xml",
+      "current_hash": "a711bc8f6c3f4fc81a9a3d3b6bb521d4",
+      "deploy_hash": "a711bc8f6c3f4fc81a9a3d3b6bb521d4",
+      "status": "DEPLOYED",
+      "modulePath": ""
+    },
+    {
+      "path": "update\\sys_documentation_x_snc_sndp_twitch_presence_real_en.xml",
+      "current_hash": "8cf104429001c1a97e752f5fbc512a32",
+      "deploy_hash": "8cf104429001c1a97e752f5fbc512a32",
+      "status": "DEPLOYED",
+      "modulePath": ""
+    }
+  ],
+  "last_fetch": "2024-04-02T16:36:02.447Z",
+  "packageJsonHash": "c320fb6b7a5204e2f890ea46ef1f6e71",
+  "register_scope": false
+}

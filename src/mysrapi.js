@@ -1,0 +1,69 @@
+import { gs } from '@servicenow/glide'
+import { GlideRecord } from '@servicenow/glide'
+// import { RESTAPIRequest } from '@servicenow/glide';
+// import { RESTAPIResponse } from '@servicenow/glide';
+
+export const getPoints = function (request, response) {
+	const user_id = request.queryParams.user_id + '';
+	const user_name = request.queryParams.user_name + '';
+
+	// gs.info(`sammi id: ${user_id}`);
+
+	let points = 0;
+
+	if (user_id){
+		const userGr = new GlideRecord('x_snc_sndp_twitch_presence');
+		if (userGr.get("user_id", user_id)){
+			points = parseInt(userGr.getValue('score'));
+			user_name = userGr.getValue('user_name');
+			if (userGr.getValue('real') === '0'){
+				userGr.setValue('real', '1');
+				userGr.update();
+			}
+		}
+	}
+
+	const responseMessage= points == 0 ? `I don't see any points for ${user_name} yet!` : `${user_name}'s score is ${points}`;
+	response.setStatus(200);
+	response.setContentType('text/plain');
+	response.setBody({"responseMessage": responseMessage});
+}
+
+export const recordPresence = function (request, response) {
+
+    // in a scripted REST API, set the request's request body to the variable requestResponse
+    const requestBody = request.body;
+	const requestData = JSON.parse(requestBody.dataString);
+
+    // gs.info('Presence payload: ' + JSON.stringify(requestData));
+
+    // create a record on the x_snc_sndp_twitch_presence table for each object in the array requestData.data
+    for (let i = 0; i < requestData.data.length; i++) {
+		const data = requestData.data[i];
+		const records = new GlideRecord('x_snc_sndp_twitch_presence');
+		if (records.get('user_id', data.user_id)){
+			const points = parseInt(records.getValue('score'));
+			records.setValue('score', points + 10);
+			if (records.getValue('user_name') != data.user_name) records.setValue('user_name', data.user_name);
+			if (records.getValue('user_login') != data.user_login) records.setValue('user_login', data.user_login);
+			records.update();
+		} else {
+			records.initialize();
+			records.setValue('user_id', data.user_id);
+			records.setValue('user_name', data.user_name);
+			records.setValue('user_login', data.user_login);
+			records.setValue('score', 10);
+			records.insert();
+		}
+	}
+
+    const responseMessage= 'logged!';
+
+	// build a response to this scripted rest api request that returns 200 success code and a text response
+	response.setStatus(200);
+	response.setContentType('text/plain');
+	response.setBody({"responseMessage": responseMessage});
+	// response.setBody(responseMessage);
+	// const writer = response.getStreamWriter();
+	// writer.writeStream(responseMessage);
+}

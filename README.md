@@ -26,7 +26,8 @@
     - [ ] the more disruptive commands can cost points (but duplicate score) -ditziv
     - [ ] donut bounds instead of just scrolls
     - [ ] muppets critics gallery -eric+asteroid
-    - [ ] !jumpscare -laszlo 
+    - [ ] !jumpscare -laszlo
+- [ ] recruit #yaylee to do a screamo chorus.
 
 ## BUGS
 

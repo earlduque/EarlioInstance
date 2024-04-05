@@ -28,6 +28,20 @@
     - [ ] muppets critics gallery -eric+asteroid
     - [ ] !jumpscare -laszlo
 - [ ] recruit #yaylee to do a screamo chorus.
+- [ ] ability to gift points to others -laszlo
+    - [ ] ++ in chat is the way to give points -eric
+
+### Spending points
+
+- [X] add a field to track currency
+~~- [ ] update form~~ doesn't sync with sdk
+- [ ] ? add a field/table to say how much each command costs
+- [X] update presence poitns giver to also increment the currency field
+- [X] add a !currency command
+- [ ] update presence points giver to also store everyones score in SAMMI (just update the response in the SRAPI and then store it in a variable on SAMMI)
+- [ ] update var gr and snap to check against the local score
+- [ ] send a payload to sn to update currency
+- [ ] update local score
 
 ## BUGS
 

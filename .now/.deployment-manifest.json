@@ -2,15 +2,15 @@
   "files": [
     {
       "path": "dictionary\\x_snc_sndp_twitch_presence.xml",
-      "current_hash": "0b0d5cf95d9d8b6f6bc37a08954c44d7",
-      "deploy_hash": "0b0d5cf95d9d8b6f6bc37a08954c44d7",
+      "current_hash": "296deec928f8db9a952489b67ba46389",
+      "deploy_hash": "296deec928f8db9a952489b67ba46389",
       "status": "DEPLOYED",
       "modulePath": ""
     },
     {
       "path": "package_inventory.csv",
-      "current_hash": "ac00ad656c6cb9c5b311fd3e92f6963c",
-      "deploy_hash": "ac00ad656c6cb9c5b311fd3e92f6963c",
+      "current_hash": "b4583f474baba798deba6bc5dbd7712b",
+      "deploy_hash": "b4583f474baba798deba6bc5dbd7712b",
       "status": "DEPLOYED",
       "modulePath": ""
     },
@@ -268,9 +268,9 @@
     },
     {
       "status": "DEPLOYED",
-      "current_hash": "9752dc370fdfe324c3af791f4b2abcb8",
+      "current_hash": "e6cd639d6c5525ed103473d1fd9d79c3",
       "path": "update\\sys_module_src_mysrapi_js.xml",
-      "deploy_hash": "9752dc370fdfe324c3af791f4b2abcb8",
+      "deploy_hash": "e6cd639d6c5525ed103473d1fd9d79c3",
       "modulePath": "x_snc_sndp_twitch/sndp-twitch/1.0.0/src/mysrapi.js"
     },
     {
@@ -289,8 +289,8 @@
     },
     {
       "path": "update\\sys_ui_section_bf969f3bc30d4210c9bcbe2bb0013107.xml",
-      "current_hash": "0a8ca5082a5fc809ba991c7fee574d61",
-      "deploy_hash": "0a8ca5082a5fc809ba991c7fee574d61",
+      "current_hash": "69ee60ebccaf6b3ddd7cc31c87b98ead",
+      "deploy_hash": "69ee60ebccaf6b3ddd7cc31c87b98ead",
       "status": "DEPLOYED",
       "modulePath": ""
     },
@@ -337,14 +337,21 @@
       "modulePath": ""
     },
     {
+      "path": "update\\sys_dictionary_x_snc_sndp_twitch_presence_currency.xml",
+      "current_hash": "7deeb0107a87d0d4d5acc439d9cdc7ed",
+      "deploy_hash": "7deeb0107a87d0d4d5acc439d9cdc7ed",
       "status": "DEPLOYED",
-      "current_hash": "f653ed7078356f3065a01a09372c6baf",
-      "path": "author_elective_update\\sys_module_src_todo_js.xml",
-      "deploy_hash": "f653ed7078356f3065a01a09372c6baf",
-      "modulePath": "x_snc_sndp_twitch/sndp-twitch/1.0.0/src/todo.js"
+      "modulePath": ""
+    },
+    {
+      "path": "update\\sys_documentation_x_snc_sndp_twitch_presence_currency_en.xml",
+      "current_hash": "121fc87919eb8af55c47789d9528cefc",
+      "deploy_hash": "121fc87919eb8af55c47789d9528cefc",
+      "status": "DEPLOYED",
+      "modulePath": ""
     }
   ],
-  "last_fetch": "2024-04-05T18:10:38.612Z",
+  "last_fetch": "2024-04-05T18:44:55.819Z",
   "packageJsonHash": "c320fb6b7a5204e2f890ea46ef1f6e71",
   "register_scope": false
 }

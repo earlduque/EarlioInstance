@@ -71,7 +71,7 @@
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>points</element>
+            <element>score</element>
             <position>5</position>
             <sys_created_by>earl.duque</sys_created_by>
             <sys_created_on>2024-03-27 04:45:23</sys_created_on>

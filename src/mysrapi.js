@@ -6,6 +6,7 @@ import { GlideRecord } from '@servicenow/glide'
 export const getPoints = function (request, response) {
 	const user_id = request.queryParams.user_id + '';
 	const user_name = request.queryParams.user_name + '';
+	const commandType = request.queryParams.commandType + '';
 
 	// gs.info(`sammi id: ${user_id}`);
 
@@ -14,7 +15,7 @@ export const getPoints = function (request, response) {
 	if (user_id){
 		const userGr = new GlideRecord('x_snc_sndp_twitch_presence');
 		if (userGr.get("user_id", user_id)){
-			points = parseInt(userGr.getValue('score'));
+			points = parseInt(userGr.getValue(commandType));
 			user_name = userGr.getValue('user_name');
 			if (userGr.getValue('real') === '0'){
 				userGr.setValue('real', '1');
@@ -23,7 +24,7 @@ export const getPoints = function (request, response) {
 		}
 	}
 
-	const responseMessage= points == 0 ? `I don't see any points for ${user_name} yet!` : `${user_name}'s score is ${points}`;
+	const responseMessage = points == 0 ? `I don't see any ${commandType} for ${user_name} yet!` : `${user_name}'s ${commandType} is ${points}`;
 	response.setStatus(200);
 	response.setContentType('text/plain');
 	response.setBody({"responseMessage": responseMessage});
@@ -42,8 +43,10 @@ export const recordPresence = function (request, response) {
 		const data = requestData.data[i];
 		const records = new GlideRecord('x_snc_sndp_twitch_presence');
 		if (records.get('user_id', data.user_id)){
-			const points = parseInt(records.getValue('score'));
+			const points = parseInt(records.getValue('score') || 10);
 			records.setValue('score', points + 10);
+			const currency = parseInt(records.getValue('currency') || 10);
+			records.setValue('currency', currency + 10);
 			if (records.getValue('user_name') != data.user_name) records.setValue('user_name', data.user_name);
 			if (records.getValue('user_login') != data.user_login) records.setValue('user_login', data.user_login);
 			records.update();
@@ -53,6 +56,7 @@ export const recordPresence = function (request, response) {
 			records.setValue('user_name', data.user_name);
 			records.setValue('user_login', data.user_login);
 			records.setValue('score', 10);
+			records.setValue('currency', 10);
 			records.insert();
 		}
 	}

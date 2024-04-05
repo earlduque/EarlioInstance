@@ -11,11 +11,12 @@
     - [ ] SNOWbot
     - [ ] PointsOnNow
     - [ ] pointSNOW
-- [ ] record chatter presence
+- [X] record chatter presence
     - [X] add confirmed_real to table
     - [X] send rest message of chatter presence
     - [X] we went with adding !points as the call but maybe just do any person chatting sends the call
 - [ ] add confirmed troll -eric
+- [ ] [add currency system](#spending-points)
 - [ ] things you can do with points
 - [ ] leaderboard
 - [X] move this to a markdown file dummy
@@ -27,7 +28,7 @@
     - [ ] donut bounds instead of just scrolls
     - [ ] muppets critics gallery -eric+asteroid
     - [ ] !jumpscare -laszlo
-- [ ] recruit #yaylee to do a screamo chorus.
+~~- [ ] recruit #yaylee to do a screamo chorus.~~
 - [ ] ability to gift points to others -laszlo
     - [ ] ++ in chat is the way to give points -eric
 

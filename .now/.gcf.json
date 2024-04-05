@@ -3,6 +3,11 @@
     "last_deploy_to_deploy_time": "1712168718582"
   },
   "deploy.count": {
-    "total_deploy_count": 78
+    "total_deploy_count": 78,
+    "fetch_count": 1
+  },
+  "deploy.timing.cli": {
+    "first_fetch_to_deploy_time": "1712340638616",
+    "last_fetch_to_deploy_time": "1712340638616"
   }
 }

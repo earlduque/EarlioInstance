@@ -20,7 +20,7 @@
 - [ ] leaderboard
 - [X] move this to a markdown file dummy
 - [X] add source control before you do anything else you might regret
-- [ ] add captions -chris
+- [X] add captions -chris
 - [ ] stream interactions
     - [ ] stream avatars -ditziv
     - [ ] the more disruptive commands can cost points (but duplicate score) -ditziv

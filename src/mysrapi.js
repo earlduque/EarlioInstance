@@ -1,4 +1,4 @@
-import { gs } from '@servicenow/glide'
+import { GlideCurrencyConfig, gs } from '@servicenow/glide'
 import { GlideRecord } from '@servicenow/glide'
 // import { RESTAPIRequest } from '@servicenow/glide';
 // import { RESTAPIResponse } from '@servicenow/glide';
@@ -61,12 +61,27 @@ export const recordPresence = function (request, response) {
 		}
 	}
 
-    const responseMessage= 'logged!';
+    const responseMessage= [];
+	const realPeopleQuery = 'real=true^currency>50'; //'real=true^real=true^currency!=0';
+	const currencyGr = new GlideRecord('x_snc_sndp_twitch_presence');
+	currencyGr.addEncodedQuery(realPeopleQuery);
+	currencyGr.query();
+	while (currencyGr.next()){
+		// const chatter = {
+		// 	// 'user_id': currencyGr.getValue('user_id'),
+		// 	'user_name': currencyGr.getValue('user_name'),
+		// 	'currency': currencyGr.getValue('currency')
+		// };
+		// responseMessage[currencyGr.getValue('user_id')] = chatter;
+
+		responseMessage.push(currencyGr.getValue('user_id'));
+	}
+
 
 	// build a response to this scripted rest api request that returns 200 success code and a text response
 	response.setStatus(200);
-	response.setContentType('text/plain');
-	response.setBody({"responseMessage": responseMessage});
+	response.setContentType('application/json');
+	response.setBody(responseMessage);
 	// response.setBody(responseMessage);
 	// const writer = response.getStreamWriter();
 	// writer.writeStream(responseMessage);

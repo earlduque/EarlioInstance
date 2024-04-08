@@ -39,10 +39,11 @@
 - [ ] ? add a field/table to say how much each command costs
 - [X] update presence poitns giver to also increment the currency field
 - [X] add a !currency command
-- [ ] update presence points giver to also store everyones score in SAMMI (just update the response in the SRAPI and then store it in a variable on SAMMI)
-- [ ] update var gr and snap to check against the local score
+- [X] update presence points giver to also store everyones score in SAMMI (just update the response in the SRAPI and then store it in a variable on SAMMI)
+- [X] update var gr and snap to check against the local score
 - [ ] send a payload to sn to update currency
-- [ ] update local score
+- [ ] update local score (delete from array)
+- [ ] update !currency to just grab from local instead of SRAPI
 
 ## BUGS
 

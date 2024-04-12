@@ -62,7 +62,7 @@ export const recordPresence = function (request, response) {
 	}
 
     const responseMessage= [];
-	const realPeopleQuery = 'real=true^currency>50'; //'real=true^real=true^currency!=0';
+	const realPeopleQuery = 'currency>50'; //'real=true^real=true^currency!=0';
 	const currencyGr = new GlideRecord('x_snc_sndp_twitch_presence');
 	currencyGr.addEncodedQuery(realPeopleQuery);
 	currencyGr.query();
@@ -85,4 +85,26 @@ export const recordPresence = function (request, response) {
 	// response.setBody(responseMessage);
 	// const writer = response.getStreamWriter();
 	// writer.writeStream(responseMessage);
+}
+
+export const spendPoints = function (request, response) {
+	const user_id = request.queryParams.user_id + '';
+	const user_name = request.queryParams.user_name + '';
+	let newPoints = 0;
+	let points = 0;
+
+	if (user_id){
+		const userGr = new GlideRecord('x_snc_sndp_twitch_presence');
+		if (userGr.get("user_id", user_id)){
+			points = parseInt(userGr.getValue("currency"));
+			userGr.setValue("currency", (points - 50).toString());
+			userGr.update();
+			newPoints = userGr.getValue('currency');
+		}
+	}
+
+	const responseMessage = ` ${user_name} new points: ${newPoints}`;
+	response.setStatus(200);
+	response.setContentType('text/plain');
+	response.setBody({"responseMessage": responseMessage});
 }

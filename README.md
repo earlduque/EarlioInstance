@@ -2,7 +2,7 @@
 
 ## JSON for SAMMI Deck
 
-[Link]("SAMMI Deck.json")
+[Link](https://github.com/earlduque/EarlioInstance/blob/main/SAMMI%20Deck.json)
 
 ## TODO
 
